@@ -1,5 +1,7 @@
 # Stockroom — product inventory
 
+Public source repository: https://github.com/Lmntrix76/php-skills-test-submission
+
 A small PHP application for recording stock counts and item prices. The form submits with Ajax, the PHP endpoint validates and stores each record in `storage/products.json`, and the page calculates row and grand totals using integer cents. Saved rows stay in submission order; edits preserve their original submission time.
 
 ## Requirements
